@@ -1,0 +1,24 @@
+﻿Build started 2012-04-17 23:04:16.
+     1>Project "C:\Users\Michal\Documents\Visual Studio 2010\Projects\Iplug\wdl\IPlug\Michal\TaurusZebu.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\FX Delay.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\IPlug /I..\..\wdl\lice /I..\VST_SDK\vstsdk2.4\pluginterfaces\vst2.x /Zi /nologo /W3 /WX- /O2 /Oy- /D VST_API /D WIN32 /D _WIN32_WINNT=0x0501 /D WINVER=0x0501 /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4250 /wd4018 /wd4267 /analyze- /errorReport:prompt FX_Delay.cpp
+         FX_Delay.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\FX Delay.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\IPlug\Release /LIBPATH:..\..\lice\Release shell32.lib lice.lib IPlug.lib user32.lib gdi32.lib comdlg32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Michal\Documents\Visual Studio 2010\Projects\Iplug\wdl\IPlug\Michal\Release\FX Delay.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release\test.lib" /MACHINE:X86 /DLL Release\FX_Delay.res
+         Release\FX_Delay.obj
+         Release\galka.obj
+         Release\ISwitchControl2.obj
+            Creating library Release\test.lib and object Release\test.exp
+         TaurusZebu.vcxproj -> C:\Users\Michal\Documents\Visual Studio 2010\Projects\Iplug\wdl\IPlug\Michal\Release\FX Delay.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\FX Delay.unsuccessfulbuild".
+         Touching "Release\FX Delay.lastbuildstate".
+     1>Done Building Project "C:\Users\Michal\Documents\Visual Studio 2010\Projects\Iplug\wdl\IPlug\Michal\TaurusZebu.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.17
